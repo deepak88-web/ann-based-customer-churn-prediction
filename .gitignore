@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+
+# Keeping the production artifacts needed by app.py; ignoring old baseline artifacts.
+artifacts/*
+!artifacts/production_pipeline/
+artifacts/production_pipeline/*
+!artifacts/production_pipeline/churn_ann.keras
+!artifacts/production_pipeline/preprocessor.joblib
+!artifacts/production_pipeline/feature_names.joblib
+!artifacts/production_pipeline/metadata.json

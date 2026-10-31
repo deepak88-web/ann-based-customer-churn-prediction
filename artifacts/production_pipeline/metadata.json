@@ -1,0 +1,29 @@
+{
+  "threshold": 0.4700000000000003,
+  "threshold_selection": "maximum validation accuracy",
+  "target_labels": {
+    "0": "No churn",
+    "1": "Churn"
+  },
+  "raw_input_columns": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "TotalCharges"
+  ]
+}
