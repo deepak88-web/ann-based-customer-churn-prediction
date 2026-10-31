@@ -80,3 +80,7 @@ Open `Churn Analysis-Production Pipeline.ipynb` in Jupyter or VS Code and run it
 - The app is a local demo; it does not store submitted customer records.
 - The model and artifacts must be included when deploying the app, or the artifacts must be provided through the deployment's configured storage.
 - The notebooks use additional visualization and Jupyter packages beyond the app's pinned runtime requirements.
+
+## Live demo
+
+[Open the Telco Churn Predictor](https://telco-churn-predictor0.streamlit.app/)
